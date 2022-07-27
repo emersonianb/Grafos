@@ -3,7 +3,6 @@ from bibgrafo.grafo_exceptions import *
 
 
 class MeuGrafo(GrafoListaAdjacencia):
-    '''
     def vertices_nao_adjacentes(self):
         li = set()
         for i in self.N:
@@ -254,19 +253,8 @@ class MeuGrafo(GrafoListaAdjacencia):
                         self.caminho_rec(v1, tam, lis)
                     elif v2 != v:
                         self.caminho_rec(v2, tam, lis)
-'''
 
-'''
-    def caminho(self, n):
-        for vertice in self.N:
-            caminho = self.dfs_p(vertice)
-            if (len(caminho) == (n * 2 + 1)):
-                return caminho
-            elif (len(caminho) > (n * 2 + 1)):
-                caminho = caminho[0:n * 2 + 1]
-                return caminho
-        return False
-        
+"""
     def dijkstra_drone(self, vi, vf, carga:int, carga_max:int, pontos_recarga:list()):
         pass
-'''
+"""
