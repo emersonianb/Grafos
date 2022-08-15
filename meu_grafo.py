@@ -253,8 +253,3 @@ class MeuGrafo(GrafoListaAdjacencia):
                         self.caminho_rec(v1, tam, lis)
                     elif v2 != v:
                         self.caminho_rec(v2, tam, lis)
-
-"""
-    def dijkstra_drone(self, vi, vf, carga:int, carga_max:int, pontos_recarga:list()):
-        pass
-"""
