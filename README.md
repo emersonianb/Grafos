@@ -1,7 +1,6 @@
 # Grafos
 
 <p> <h2> Repositório criado para compartilhar os roteiros desenvolvidos para a cadeira de Teoria dos Grafos </h2> </p> <br>
-<hr>
 <table align="center">
   <tr>
     <th width=50> <h2> Linguagem </h2> </th>
